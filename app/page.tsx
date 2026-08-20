@@ -8,9 +8,9 @@ export default function Home() {
     <main className="restaurant-home" dir="rtl">
       <LanguageToggle />
       <section className="restaurant-hero">
-        <Image className="restaurant-hero-image" src="/restaurant-chef.jpg" alt="شيف Damaskus Haus مع شاورما الدجاج" fill priority sizes="100vw" />
+        <Image className="restaurant-hero-image" src="/Damaskus-Haus/restaurant-chef.jpg" alt="شيف Damaskus Haus مع شاورما الدجاج" fill priority sizes="100vw" />
         <div className="restaurant-hero-overlay" />
-        <div className="restaurant-nav"><Link href="/" className="restaurant-logo"><Image src="/logo.svg" alt="Damaskus Haus" width={42} height={42} /> <span>Damaskus Haus</span></Link></div>
+        <div className="restaurant-nav"><Link href="/" className="restaurant-logo"><Image src="/Damaskus-Haus/logo.svg" alt="Damaskus Haus" width={42} height={42} /> <span>Damaskus Haus</span></Link></div>
         <div className="restaurant-intro"><p className="hero-kicker"><span className="lang-de">Syrische Küche</span><span className="lang-ar">أكل شامي</span></p><h1>Damaskus<br /><em>Haus</em></h1><p><span className="lang-de">Authentische Aromen aus Damaskus</span><span className="lang-ar">نكهات أصيلة من دمشق</span></p><Link className="primary-home-button" href="/menu"><span className="lang-de">Speisekarte ansehen</span><span className="lang-ar">شاهد المنيو</span></Link></div>
         <div className="restaurant-details"><span>Porschestraße 34 D 38440 Wolfsburg</span><span><span className="lang-de">Abholung & Lieferung</span><span className="lang-ar">استلام وتوصيل</span></span><span><span className="lang-ar">مفتوح من الساعة 11 حتى الساعة 12 بالليل</span><span className="lang-de"> Öffnungszeiten: 11:00 – 00:00 Uhr</span></span></div>
       </section>
