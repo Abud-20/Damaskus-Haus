@@ -1,11 +1,14 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: "export",
-  basePath: "/Damaskus-Haus",
-  assetPrefix: "/Damaskus-Haus/",
+  distDir: process.env.NEXT_DIST_DIR ?? ".next",
+  turbopack: {
+    root: process.cwd(),
+  },
   images: {
-    unoptimized: true,
+    remotePatterns: [
+      { protocol: "https", hostname: "images.unsplash.com" },
+    ],
   },
 };
 
